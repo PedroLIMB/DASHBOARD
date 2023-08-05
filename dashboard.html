@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Análise de Vendas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section class="container">
+        <section class="barrae">
+            <h1>Dashboard</h1>
+            <ul>
+                <li class="atual">Visão Geral</li>
+                <li>Produtos</li>
+                <li>Clientes</li>
+                <li>Vendas</li>
+            </ul>
+        </section>
+        <section class="main">
+            <div class="header">
+                <h2>Visão Geral das Vendas</h2>
+            </div>
+            <div class="data-container">
+                <div class="bloco">
+                    <h3>Total de Vendas</h3>
+                    <p class="blocop">R$ 50.000</p>
+                </div>
+                <div class="bloco">
+                    <h3>Vendas Hoje</h3>
+                    <p class="blocop">R$ 2.000</p>
+                </div>
+                <div class="bloco">
+                    <h3>Média de Vendas Diárias</h3>
+                    <p class="blocop">R$ 1.500</p>
+                </div>
+                <div class="bloco">
+                    <h3>Produtos Vendidos</h3>
+                    <p class="blocop">250</p>
+                </div>
+            </div>
+            <div class="chart-container">
+                <canvas id="sales-chart"></canvas>
+            </div>
+        </section>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
