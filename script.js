@@ -8,10 +8,7 @@ const data = {
         borderWidth: 2
     }]
 };
-<<<<<<< HEAD
-=======
 
->>>>>>> 7658065e8a59c1cc0602c9a899d4f2b76c138316
 const config = {
     type: 'line',
     data: data,
@@ -25,9 +22,6 @@ const config = {
         }
     }
 };
-<<<<<<< HEAD
-=======
 
->>>>>>> 7658065e8a59c1cc0602c9a899d4f2b76c138316
 const ctx = document.getElementById('sales-chart').getContext('2d');
 new Chart(ctx, config);
